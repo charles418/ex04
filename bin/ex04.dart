@@ -27,15 +27,16 @@ List fibonacciLine(num n) {
 
 void question2() {
   //Calculate the end point of the line
-  var xstart = 0;
-  var ystart = 0;
-  var height = 660;
-  var width = 980;
+  //I've tried different methods but couldn't use sin and cos using dart math...
+  var locx = (980/2);
+  var locy = (660/2);
   var angle = 33;
+  var rad = angle * 0.0174532
   var linelenth = 120;
-  
+  var x = (linelenth * (rad)) + locx; //should read: (linelenth * math.cos(rad)) + locx;
+  var y = (linelenth * (rad)) + locy; //should read: (linelenth * math.sin(rad)) + locy;
+  print = ("The coordinates of the end of the line is ($x , $y)")
       
- 
 }
   
   
