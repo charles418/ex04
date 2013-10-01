@@ -1,0 +1,29 @@
+ex04
+
+4/10
+
+git rm pubspec.lock
+pubspec.lock est @GitHub
+
+(-1) formater le code
+
+(-2) couleur rouge
+var rad = angle * 0.0174532 -> var rad = angle * 0.0174532;
+print = ("The coordinates of the end of the line is ($x , $y)")
+->
+print("The coordinates of the end of the line is ($x , $y)");
+
+(-1) imprimer les titres des exercices avec des lignes vides comme des séparations
+
+4.2
+//I've tried different methods but couldn't use sin and cos using dart math... ??
+Vous avez utilisé la bibliothèque mathématique de Dart:
+http://api.dartlang.org/docs/releases/latest/dart_math.html
+
+4.3
+9692 
+(-1) années, mois ?
+
+4.5
+(-1) fonction avec un paramètre ?
+
