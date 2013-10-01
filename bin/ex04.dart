@@ -33,8 +33,8 @@ void question2() {
   var angle = 33;
   var rad = angle * 0.0174532
   var linelenth = 120;
-  var x = (linelenth * (rad)) + locx; //should read: (linelenth * math.cos(rad)) + locx;
-  var y = (linelenth * (rad)) + locy; //should read: (linelenth * math.sin(rad)) + locy;
+  var x = (linelenth * mathematique.cos(rad)) + locx; 
+  var y = (linelenth * mathematique.sin(rad)) + locy; 
   print = ("The coordinates of the end of the line is ($x , $y)")
       
 }
