@@ -1,0 +1,48 @@
+ex04
+
+3/10
+
+git rm pubspec.lock
+pubspec.lock est @GitHub
+
+(-1) formater le code
+
+(-2) couleur rouge
+var rad = angle * 0.0174532 -> var rad = angle * 0.0174532;
+print = ("The coordinates of the end of the line is ($x , $y)")
+->
+print("The coordinates of the end of the line is ($x , $y)");
+
+(-1) imprimer les titres des exercices avec des lignes vides comme des séparations
+
+(-2) copier le code de Arnaud Genest
+la prochaine fois, ce sera -10
+void question1(){
+  //Print the first 11 numbers, starting with 0, of the Fibonacci sequence.
+
+    print(fibonacciLine(11));}
+num fibonacci(num n) {
+    if (n == 0 || n == 1) {
+        return n;}
+    else
+{return fibonacci(n-1) + fibonacci(n-2);}}
+
+List fibonacciLine(num n) {
+    var list = new List(n);
+    for (var x = 0; x < n; x++) {
+        list[x] = fibonacci(x);
+    }
+    return list;}
+https://github.com/charles418/ex04/blob/ad10ef7269ff166daea80e24f1122089688cd99c/bin/ex04.dart
+
+4.2
+//I've tried different methods but couldn't use sin and cos using dart math... ??
+Vous avez utilisé la bibliothèque mathématique de Dart:
+http://api.dartlang.org/docs/releases/latest/dart_math.html
+
+4.3
+9692
+(-1) années, mois ?
+
+
+
