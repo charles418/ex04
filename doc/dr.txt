@@ -2,8 +2,10 @@ ex04
 
 3/10
 
-git rm pubspec.lock
+doc/dr.txt.txt ?
+
 pubspec.lock est @GitHub
+git rm pubspec.lock
 
 (-1) formater le code
 
